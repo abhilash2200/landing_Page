@@ -30,8 +30,8 @@
       rewind     : true,
       rewindSpeed: 300,
       breakpoints: {
-        1500 : { perPage: 3 },
-        1300 : { perPage: 4,  },
+        1500 : { perPage: 3,},
+        1300 : { perPage: 4,},
         1200 : { perPage: 2,},
         700  :{perPage: 1, padding:"0px 10px"}
       },
