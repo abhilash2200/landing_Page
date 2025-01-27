@@ -1,0 +1,245 @@
+.form-control, .form-select{
+    border: none;
+    border-bottom: 1px solid #313030;
+    font-size: 15px;
+    color: #212528;
+    padding-bottom: 15px;
+  }
+  ::placeholder{
+    color:#212528 !important;
+    font-size: 15px;
+    font-weight: 400;
+    border: none;
+  }
+  select option span{
+    color: #FF0000;
+  }
+
+
+
+
+
+#testimonial
+.splide__pagination {
+    bottom: -3em;
+    left: 0;
+    padding: 11px 13em;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+}
+
+#testimonial
+.splide__arrows {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    top: -68px;
+    left: -68px;
+    width: 100%;
+}
+#testimonial
+.splide__arrow {
+    background-color: #E8E8E8;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    display: block;
+    height: 40px;
+    position: relative;
+    top: 0%;
+    transform: translateY(0%);
+    width: 40px;
+    z-index: 2;
+}
+  
+#testimonial
+.splide__arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+#testimonial
+.splide__arrow--prev {
+    margin-right: 50px;
+}
+
+#testimonial
+.splide__pagination__page {
+    background-color: #F2F2F2;
+    border-radius: 10%;
+    color: #212528;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2px;
+    margin: 0 2px;
+    width: 10px;
+    transition: background-color 0.3s ease;
+}
+#testimonial
+.splide__pagination__page.is-active {
+    border-radius: 10%;
+    margin: 0 5px;
+    width: 15px;
+    height: 2px;
+    background-color: #FFFFFF;
+    color: #FFFFFF;
+    transition: background-color 0.3s ease;
+  }
+
+  @media (max-width: 800px) {
+    #testimonial
+    .splide__arrows {
+      position: relative;
+      top: 0;
+      left: 0;
+      padding-bottom: 20px;
+    }
+    
+    #testimonial
+    .splide__pagination {
+      bottom: -1em;
+      left: 0;
+      padding: 11px 1em;
+      position: absolute;
+      right: 0;
+      z-index: 1;
+    }
+  }
+
+  @media (max-width: 400px) {
+    #testimonial
+    .splide__arrows {
+      position: relative;
+      top: 0;
+      left: 0;
+      padding-bottom: 30px;
+    }
+    #testimonial
+    .splide__pagination {
+      bottom: -1.5em;
+      left: 0;
+      padding: 11px 1em;
+      position: absolute;
+      right: 0;
+      z-index: 1;
+    }
+  }
+
+
+
+  #course
+  .splide__arrows {
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      top: -68px;
+      left: -40px;
+      width: 100%;
+  }
+  #course
+  .splide__arrow {
+      background-color: #E8E8E8;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      display: block;
+      height: 40px;
+      position: relative;
+      top: 0%;
+      transform: translateY(0%);
+      width: 40px;
+      z-index: 2;
+  }
+    
+  #course
+  .splide__arrow {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+  }
+  
+  
+  #course
+  .splide__arrow--prev {
+      margin-right: 50px;
+  }
+
+  @media (max-width: 360px) {
+    #course
+    .splide__arrows {
+      position: relative;
+      top: 0;
+      left: 0;
+      padding-bottom: 20px;
+    }
+  }
+
+  #stories
+  .splide__pagination {
+      bottom: -3em;
+      left: 0;
+      padding: 11px 13em;
+      position: absolute;
+      right: 0;
+      z-index: 1;
+  }
+
+  #stories
+  .splide__pagination__page {
+      background-color: #0045AA;
+      border-radius: 10%;
+      color: #0045AA;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 2px;
+      margin: 0 2px;
+      width: 10px;
+      transition: background-color 0.3s ease;
+  }
+  #stories
+  .splide__pagination__page.is-active {
+      border-radius: 10%;
+      margin: 0 5px;
+      width: 15px;
+      height: 2px;
+      background-color: #0045AA;
+      color: #0045AA;
+      transition: background-color 0.3s ease;
+    }
+
+    @media (max-width: 800px) {
+      #stories
+      .splide__pagination {
+        bottom: -3em;
+        left: 0;
+        padding: 11px 1em;
+        position: absolute;
+        right: 0;
+        z-index: 1;
+      }
+    }
+  
+    @media (max-width: 400px) {
+      #stories
+      .splide__pagination {
+        bottom: -1.5em;
+        left: 0;
+        padding: 11px 1em;
+        position: absolute;
+        right: 0;
+        z-index: 1;
+      }
+    }
+
+
