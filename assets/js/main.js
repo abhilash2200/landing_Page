@@ -42,7 +42,7 @@
   document.addEventListener("DOMContentLoaded", function () {
     new Splide("#course", {
       type   : 'loop',
-      perPage: 3,
+      perPage: 1,
       gap: "3rem",
       pagination:0,
       perMove: 2,
@@ -92,7 +92,7 @@
   });
 
   // Set default active tab
-  tabs[0].classList.add('text-[000]', 'border-b-3', 'border-[#0045AA]', 'bg-[#FFF]');
+  tabs[0].classList.add('text-[000]', 'rounded-lg', 'border-b-3', 'border-[#0045AA]', 'bg-[#FFF]');
 
 
   
