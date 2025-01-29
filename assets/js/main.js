@@ -56,15 +56,34 @@
     }).mount();
   })
 
+
+  document.addEventListener("DOMContentLoaded", function () {
+    new Splide("#career", {
+      type   : 'loop',
+      perPage: 6,
+      autoplay:true,
+      pagination: 0,
+      perMove: 2,
+      arrows: false,
+      breakpoints: {
+        1500 : { perPage: 6 },
+        1300 : { perPage: 6,},
+        1200 : { perPage: 5,},
+        800  :{perPage: 4,},
+        400  :{perPage: 2,}
+      },
+    }).mount();
+  })
+
   const tabs = document.querySelectorAll('#nav-tabs button');
   const contents = document.querySelectorAll('.tab-content');
 
   tabs.forEach((tab) => {
     tab.addEventListener('click', () => {
       // Remove active class from all tabs
-      tabs.forEach((t) => t.classList.remove('text-black', 'rounded-lg', 'bg-[#FFF]'));
+      tabs.forEach((t) => t.classList.remove('text-black', 'rounded-lg', 'bg-[#FFF]', 'border-b-3', 'border-[#0045AA]'));
       // Add active class to clicked tab
-      tab.classList.add('rounded-lg', 'text-black', 'bg-[#FFF]');
+      tab.classList.add('rounded-lg', 'text-black', 'bg-[#FFF]', 'border-b-3', 'border-[#0045AA]');
 
       // Hide all content and show the selected tab's content
       contents.forEach((content) => content.classList.add('hidden'));
