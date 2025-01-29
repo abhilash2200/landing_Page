@@ -173,7 +173,7 @@
       margin-right: 50px;
   }
 
-  @media (max-width: 360px) {
+  @media (max-width: 400px) {
     #course
     .splide__arrows {
       position: relative;

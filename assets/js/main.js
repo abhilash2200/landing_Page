@@ -92,7 +92,7 @@
   });
 
   // Set default active tab
-  tabs[0].classList.add('text-black-1000',);
+  tabs[0].classList.add('text-[000]', 'border-b-3', 'border-[#0045AA]', 'bg-[#FFF]');
 
 
   
