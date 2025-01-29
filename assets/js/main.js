@@ -30,7 +30,7 @@
       rewind     : true,
       rewindSpeed: 300,
       breakpoints: {
-        1500 : { perPage: 3,},
+        1500 : { perPage: 4,},
         1300 : { perPage: 3,},
         1200 : { perPage: 2,},
         700  :{perPage: 1, padding:"0px 10px"}
@@ -42,10 +42,10 @@
   document.addEventListener("DOMContentLoaded", function () {
     new Splide("#course", {
       type   : 'loop',
-      perPage: 1,
+      perPage: 3,
       gap: "3rem",
       pagination:0,
-      perMove: 2,
+      perMove: 1,
       breakpoints: {
         1500 : { perPage: 3 },
         1300 : { perPage: 3,},
@@ -81,9 +81,9 @@
   tabs.forEach((tab) => {
     tab.addEventListener('click', () => {
       // Remove active class from all tabs
-      tabs.forEach((t) => t.classList.remove('text-black', 'rounded-lg', 'bg-[#FFF]', 'border-b-3', 'border-[#0045AA]', 'drop-shadow-lg'));
+      tabs.forEach((t) => t.classList.remove('text-black', 'border-b-3', 'border-[#0045AA]', 'drop-shadow-lg'));
       // Add active class to clicked tab
-      tab.classList.add('rounded-lg', 'text-black', 'bg-[#FFF]', 'border-b-3', 'border-[#0045AA]', 'drop-shadow-lg');
+      tab.classList.add('text-black', 'border-b-3', 'border-[#0045AA]', 'drop-shadow-lg');
 
       // Hide all content and show the selected tab's content
       contents.forEach((content) => content.classList.add('hidden'));
@@ -92,7 +92,7 @@
   });
 
   // Set default active tab
-  tabs[0].classList.add('text-[#000]', 'rounded-lg', 'border-b-3', 'border-[#0045AA]', 'bg-[#FFF]', 'drop-shadow-lg');
+  tabs[0].classList.add('border-b-3', 'border-[#0045AA]',);
 
 
   
