@@ -141,3 +141,7 @@
 
 
 
+document.getElementById('close-modal').addEventListener('click', function () {
+  const modal = document.getElementById('crud-modal');
+  modal.classList.add('hidden'); // Hide the modal
+});
