@@ -81,9 +81,9 @@
   tabs.forEach((tab) => {
     tab.addEventListener('click', () => {
       // Remove active class from all tabs
-      tabs.forEach((t) => t.classList.remove('text-black', 'rounded-lg', 'bg-[#FFF]', 'border-b-3', 'border-[#0045AA]'));
+      tabs.forEach((t) => t.classList.remove('text-black', 'rounded-lg', 'bg-[#FFF]', 'border-b-3', 'border-[#0045AA]', 'drop-shadow-lg'));
       // Add active class to clicked tab
-      tab.classList.add('rounded-lg', 'text-black', 'bg-[#FFF]', 'border-b-3', 'border-[#0045AA]');
+      tab.classList.add('rounded-lg', 'text-black', 'bg-[#FFF]', 'border-b-3', 'border-[#0045AA]', 'drop-shadow-lg');
 
       // Hide all content and show the selected tab's content
       contents.forEach((content) => content.classList.add('hidden'));
@@ -92,7 +92,7 @@
   });
 
   // Set default active tab
-  tabs[0].classList.add('text-[000]', 'rounded-lg', 'border-b-3', 'border-[#0045AA]', 'bg-[#FFF]');
+  tabs[0].classList.add('text-[#000]', 'rounded-lg', 'border-b-3', 'border-[#0045AA]', 'bg-[#FFF]', 'drop-shadow-lg');
 
 
   
