@@ -14,13 +14,18 @@
 
 
     <section>
-        <div class="flex flex-wrap justify-between md:justify-center py-[10px] px-4 ">
+        <div class="flex flex-wrap justify-between md:justify-center bg-[#0045AA] lg:bg-white py-[5px] lg:py-[10px] px-2 lg:px-4 ">
             <div>
 
                 <img src="assets/img/george-telegraph-logo.png" alt="logo" class="w-[100px] md:w-[auto]">
             </div>
-            <div class="bg-[#1B1862] px-4 py-2 block md:hidden lg:hidden border-md">
-                <h2 class="text-[#FFF] font-semibold text-[10px] leading-[8px] text-center">105<br><span class="uppercase text-[#EABB13]"> years old</span></h2>
+            <div class="flex items-center justify-center gap-2 px-3 block md:hidden lg:hidden text-center bg-gradient-to-r from-yellow-400 to-yellow-600 rounded-lg shadow-lg p-1">
+                <h2 class="text-white font-extrabold text-[23px] leading-none tracking-wide drop-shadow-lg">
+                    104
+                </h2>
+                <p class="uppercase text-[12px] text-white font-semibold px-2 py-1 rounded-full inline-block">
+                    Years Old
+                </p>
             </div>
         </div>
     </section>
@@ -65,9 +70,9 @@
     <section class="bg-[#fff] py-[20px] lg:py-[50px]">
         <div class="container mx-auto px-4">
             <div class="flex flex-wrap">
-                <div class="w-full md:w-[60%] lg:mt-8 mt-5 mb-3 lg:mb-0 md:px-2 lg:px-0">
+                <div class="w-full md:w-[60%] lg:mt-8 mt-0 mb-3 lg:mb-0 md:px-2 lg:px-0">
                     <h6 class="text-[#00000] text-[20px] font-bold">The Place Where</h6>
-                    <h2 class="text-[#0045AA] text-[30px] font-bold pb-5">FUTURE BEGINS</h2>
+                    <h2 class="text-[#0045AA] text-[30px] font-bold md:pb-5 md:pb-5 pb-2">FUTURE BEGINS</h2>
                     <p class="text-[#282828] lg:text-[15px] text-[13px] lg:pb-5 pb-2">
                         The George Telegraph Training Institute commenced operations in 1920. The George Telegraph Training Institute commenced operations in 1920.GTTI introduces two new Departments-
                     </p>
@@ -226,13 +231,13 @@
                 <div class="splide__track">
                       <ul class="splide__list" id="nav-tabs">
                           <li class="splide__slide flex justify-center">
-                            <button class="flex-1 text-center py-2 px-4 border-b-2 border-transparent transition-colors bg-[#FFF] rounded-lg" data-tab="home">Diploma in <br>Medical Labrotary Technician</button>
+                            <button class="flex-1 font-bold text-center py-10 lg:py-2 px-4 border-b-2 border-transparent transition-colors bg-[#FFF] rounded-lg overflow-hidden bg-[url('assets/img/labtest.png')] md:bg-none lg:bg-none" data-tab="home">Diploma in <br>Medical Labrotary Technician</button>
                           </li>
                           <li class="splide__slide flex justify-center">
-                            <button class="flex-1 text-center py-2 px-4 border-b-2 border-transparent transition-colors bg-[#FFF] rounded-lg" data-tab="about">Diploma in <br>Dialysis Technician</button>
+                            <button class="flex-1 font-bold text-center py-10 lg:py-2 px-4 border-b-2 border-transparent transition-colors bg-[#FFF] rounded-lg overflow-hidden bg-[url('assets/img/dialysis-tech.jpg')] md:bg-none lg:bg-none" data-tab="about">Diploma in <br>Dialysis Technician</button>
                           </li>
                           <li class="splide__slide flex justify-center">
-                            <button class="flex-1 text-center py-2 px-4 border-b-2 border-transparent transition-colors bg-[#FFF] rounded-lg" data-tab="contact">Diploma in <br>Operation Theatre Technology</button>
+                            <button class="flex-1 font-bold text-center py-10 lg:py-2 px-4 border-b-2 border-transparent transition-colors bg-[#FFF] rounded-lg overflow-hidden bg-[url('assets/img/botat.png')] md:bg-none lg:bg-none" data-tab="contact">Diploma in <br>Operation Theatre Technology</button>
                           </li>
                       </ul>
                       <div class="mt-4">
@@ -241,17 +246,66 @@
                                 The George Telegraph Training Institute, a renowned educational institution in Kolkata, offers a leading Diploma in Financial Accounting program. This diploma course specializes in equipping students with essential skills and knowledge in the field of accounting and finance.
                                 The Financial Accounting Course at The George Telegraph Training Institute is designed to provide comprehensive training in accounting principles, financial statements, taxation, auditing, and other vital aspects of finance. Students enrolled in this program gain expertise in managing financial records, analyzing financial data, and understanding the regulatory frameworks.
                             </p>
-                            <div class="flex flex-wrap pt-2 md:pt-5">
+                            
+                            <div class="flex flex-wrap pt-2 md:pt-5 gap-4 block md:hidden lg:hidden">
+                                <!-- Duration Section -->
+                                <div class="w-full md:w-[33%] md:px-5 px-3 pb-5 md:pb-0 bg-white shadow-lg rounded-lg border border-gray-200 p-6 text-center md:shadow-none md:border-none">
+                                    <div class="flex flex-col items-center">
+                                        <a href="#" class="py-2 px-6 md:px-8 lg:px-10 bg-[#0045AA] text-white font-semibold rounded-full shadow-md flex justify-center items-center gap-2">
+                                            ⏳ Duration
+                                        </a>
+                                        <h2 class="text-[24px] md:text-[20px] lg:text-[30px] font-bold mt-3 text-gray-800">
+                                            24 Months
+                                        </h2>
+                                    </div>
+                                </div>
+                            
+                                <!-- Vertical Divider (Only for Desktop) -->
+                                <div class="w-[1px] h-auto bg-black mt-16 hidden md:block"></div>
+                            
+                                <!-- Eligibility Section -->
+                                <div class="w-full md:w-[33%] md:px-5 px-3 pb-5 md:pb-0 bg-white shadow-lg rounded-lg border border-gray-200 p-6 text-center md:shadow-none md:border-none">
+                                    <div class="flex flex-col items-center">
+                                        <a href="#" class="py-2 px-6 md:px-8 lg:px-10 bg-[#0045AA] text-white font-semibold rounded-full shadow-md flex justify-center items-center gap-2">
+                                            🎓 Eligibility
+                                        </a>
+                                        <h2 class="text-[24px] md:text-[20px] lg:text-[30px] font-bold mt-3 text-gray-800 leading-tight">
+                                            Passed Class X <br class="hidden lg:block"> Board Exam
+                                        </h2>
+                                    </div>
+                                </div>
+                            
+                                <!-- Vertical Divider (Only for Desktop) -->
+                                <div class="w-[1px] h-auto bg-black mt-16 hidden md:block"></div>
+                            
+                                <!-- Work Area Section -->
+                                <div class="w-full md:w-[33%] md:px-5 px-3 bg-white shadow-lg rounded-lg border border-gray-200 p-6 md:shadow-none md:border-none">
+                                    <div class="flex flex-col items-center text-center">
+                                        <a href="#" class="py-2 px-6 md:px-8 lg:px-10 bg-[#0045AA] text-white font-semibold rounded-full shadow-md flex justify-center items-center gap-2 mb-4">
+                                            🏥 Work Area
+                                        </a>
+                                        <p class="text-gray-700 text-[15px] leading-tight text-left">
+                                            Diploma in Medical Laboratory Technician (MLT) also referred to as Clinical Laboratory Science professional, Medical Technologist and Medical Laboratory Scientist. The Diploma in Medical lab technician course details can be accessed with a free counseling session. Perform complex tests for diagnosis, treatment, and prevention of disease.
+                                        </p>
+                                        <p class="text-gray-700 text-[15px] leading-tight text-left mt-2">
+                                            These professionals are responsible for supporting and assisting doctors/scientists in their day-to-day working in a variety of roles. They function as the main support to biomedical scientists in pathology laboratories. It is among the top diplomas in medical laboratory technology colleges.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+
+                            <div class="hidden md:flex lg:flex flex-wrap pt-2 md:pt-5">
                                 <div class="w-full md:w-[33%] md:px-5 px-0 pb-5 md:pb-0">
                                     <div class="flex flex-wrap justify-center md:mb-5 mb-3">
-                                        <a href="" class="py-2 md:px-8 lg:px-10 px-8 bg-[#0045AA] text-[#FFF] rounded-full">Duration</a>
+                                        <a href="" class="py-2 md:px-8 lg:px-10 px-8 bg-[#0045AA] text-[#FFF] rounded-full">⏳ Duration</a>
                                     </div>
                                     <h2 class="text-center text-[22px] md:text-[20px] lg:text-[30px] font-bold">24 Months</h2>
                                 </div>
                                 <div class="w-[1px] h-[auto] bg-[#000000] mt-16 hidden md:block"></div>
                                 <div class="w-full md:w-[33%] md:px-5 px-0 pb-5 md:pb-0">
                                     <div class="flex flex-wrap justify-center md:mb-5 mb-3">
-                                        <a href="" class="py-2 px-8 md:px-8 lg:px-10 bg-[#0045AA] text-[#FFF] rounded-full">Eligibility</a>
+                                        <a href="" class="py-2 px-8 md:px-8 lg:px-10 bg-[#0045AA] text-[#FFF] rounded-full">🎓 Eligibility</a>
                                     </div>
                                     <div class="flex flex-wrap justify-center">
                                         <h2 class="text-[25px] md:text-[20px] lg:text-[30px] font-bold leading-tight text-center md:text-left">Passed Class X<br class="hidden lg:block"> Board Exam</h2>
@@ -260,7 +314,7 @@
                                 <div class="w-[1px] h-[auto] bg-[#000000] mt-16 hidden md:block"></div>
                                 <div class="w-full md:w-[33%] md:px-5 px-0">
                                     <div class="flex flex-wrap justify-center">
-                                        <a href="" class="py-2 px-8 md:px-8 lg:px-10 bg-[#0045AA] text-[#FFF] rounded-full mb-5">Work Area</a>
+                                        <a href="" class="py-2 px-8 md:px-8 lg:px-10 bg-[#0045AA] text-[#FFF] rounded-full mb-5">🏥 Work Area</a>
                                     </div>
                                     <p class="text-left text-[#282828] text-[15px] pb-2 md:pb-2 leading-tight">
                                         Diploma in Medical Laboratory Technician (MLT) also referred to as Clinical Laboratory Science professional, Medical Technologist and Medical Laboratory Scientist. The Diploma in Medical lab technician course details can be accessed with a free counseling session. perform complex tests for diagnosis, treatment, and prevention of disease. 
@@ -276,7 +330,55 @@
                                 The George Telegraph Training Institute, a renowned educational institution in Kolkata, offers a leading Diploma in Financial Accounting program. This diploma course specializes in equipping students with essential skills and knowledge in the field of accounting and finance.
                                 The Financial Accounting Course at The George Telegraph Training Institute is designed to provide comprehensive training in accounting principles, financial statements, taxation, auditing, and other vital aspects of finance. Students enrolled in this program gain expertise in managing financial records, analyzing financial data, and understanding the regulatory frameworks.
                             </p>
-                            <div class="flex flex-wrap pt-2 md:pt-5">
+
+                            <div class="flex flex-wrap pt-2 md:pt-5 gap-4 block md:hidden lg:hidden">
+                                <!-- Duration Section -->
+                                <div class="w-full md:w-[33%] md:px-5 px-3 pb-5 md:pb-0 bg-white shadow-lg rounded-lg border border-gray-200 p-6 text-center md:shadow-none md:border-none">
+                                    <div class="flex flex-col items-center">
+                                        <a href="#" class="py-2 px-6 md:px-8 lg:px-10 bg-[#0045AA] text-white font-semibold rounded-full shadow-md flex justify-center items-center gap-2">
+                                            ⏳ Duration
+                                        </a>
+                                        <h2 class="text-[24px] md:text-[20px] lg:text-[30px] font-bold mt-3 text-gray-800">
+                                            25 Months
+                                        </h2>
+                                    </div>
+                                </div>
+                            
+                                <!-- Vertical Divider (Only for Desktop) -->
+                                <div class="w-[1px] h-auto bg-black mt-16 hidden md:block"></div>
+                            
+                                <!-- Eligibility Section -->
+                                <div class="w-full md:w-[33%] md:px-5 px-3 pb-5 md:pb-0 bg-white shadow-lg rounded-lg border border-gray-200 p-6 text-center md:shadow-none md:border-none">
+                                    <div class="flex flex-col items-center">
+                                        <a href="#" class="py-2 px-6 md:px-8 lg:px-10 bg-[#0045AA] text-white font-semibold rounded-full shadow-md flex justify-center items-center gap-2">
+                                            🎓 Eligibility
+                                        </a>
+                                        <h2 class="text-[24px] md:text-[20px] lg:text-[30px] font-bold mt-3 text-gray-800 leading-tight">
+                                            Passed Class XI <br class="hidden lg:block"> Board Exam
+                                        </h2>
+                                    </div>
+                                </div>
+                            
+                                <!-- Vertical Divider (Only for Desktop) -->
+                                <div class="w-[1px] h-auto bg-black mt-16 hidden md:block"></div>
+                            
+                                <!-- Work Area Section -->
+                                <div class="w-full md:w-[33%] md:px-5 px-3 bg-white shadow-lg rounded-lg border border-gray-200 p-6 md:shadow-none md:border-none">
+                                    <div class="flex flex-col items-center text-center">
+                                        <a href="#" class="py-2 px-6 md:px-8 lg:px-10 bg-[#0045AA] text-white font-semibold rounded-full shadow-md flex justify-center items-center gap-2 mb-4">
+                                            🏥 Work Area
+                                        </a>
+                                        <p class="text-gray-700 text-[15px] leading-tight text-left">
+                                            Diploma in Medical Laboratory Technician (MLT) also referred to as Clinical Laboratory Science professional, Medical Technologist and Medical Laboratory Scientist. The Diploma in Medical lab technician course details can be accessed with a free counseling session. perform complex tests for diagnosis, treatment, and prevention of disease.
+                                        </p>
+                                        <p class="text-gray-700 text-[15px] leading-tight text-left mt-2">
+                                            These professionals are responsible for supporting and assisting doctors/ scientists in their day to day working in a variety of roles. They function as the main support to biomedical scientists in pathology laboratories. It is among the top diplomas in medical laboratory technology colleges.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="hidden md:flex lg:flex flex flex-wrap pt-2 md:pt-5">
                                 <div class="w-full md:w-[33%] md:px-5 px-0 pb-5 md:pb-0">
                                     <div class="flex flex-wrap justify-center md:mb-5 mb-3">
                                         <a href="" class="py-2 md:px-8 lg:px-10 px-8 bg-[#0045AA] text-[#FFF] rounded-full">Duration</a>
@@ -311,7 +413,56 @@
                                 The George Telegraph Training Institute, a renowned educational institution in Kolkata, offers a leading Diploma in Financial Accounting program. This diploma course specializes in equipping students with essential skills and knowledge in the field of accounting and finance.
                                 The Financial Accounting Course at The George Telegraph Training Institute is designed to provide comprehensive training in accounting principles, financial statements, taxation, auditing, and other vital aspects of finance. Students enrolled in this program gain expertise in managing financial records, analyzing financial data, and understanding the regulatory frameworks.
                             </p>
-                            <div class="flex flex-wrap pt-2 md:pt-5">
+
+
+                            <div class="flex flex-wrap pt-2 md:pt-5 gap-4 block md:hidden lg:hidden">
+                                <!-- Duration Section -->
+                                <div class="w-full md:w-[33%] md:px-5 px-3 pb-5 md:pb-0 bg-white shadow-lg rounded-lg border border-gray-200 p-6 text-center md:shadow-none md:border-none">
+                                    <div class="flex flex-col items-center">
+                                        <a href="#" class="py-2 px-6 md:px-8 lg:px-10 bg-[#0045AA] text-white font-semibold rounded-full shadow-md flex justify-center items-center gap-2">
+                                            ⏳ Duration
+                                        </a>
+                                        <h2 class="text-[24px] md:text-[20px] lg:text-[30px] font-bold mt-3 text-gray-800">
+                                            20 Months
+                                        </h2>
+                                    </div>
+                                </div>
+                            
+                                <!-- Vertical Divider (Only for Desktop) -->
+                                <div class="w-[1px] h-auto bg-black mt-16 hidden md:block"></div>
+                            
+                                <!-- Eligibility Section -->
+                                <div class="w-full md:w-[33%] md:px-5 px-3 pb-5 md:pb-0 bg-white shadow-lg rounded-lg border border-gray-200 p-6 text-center md:shadow-none md:border-none">
+                                    <div class="flex flex-col items-center">
+                                        <a href="#" class="py-2 px-6 md:px-8 lg:px-10 bg-[#0045AA] text-white font-semibold rounded-full shadow-md flex justify-center items-center gap-2">
+                                            🎓 Eligibility
+                                        </a>
+                                        <h2 class="text-[24px] md:text-[20px] lg:text-[30px] font-bold mt-3 text-gray-800 leading-tight">
+                                            Passed Class IX<br class="hidden lg:block"> Board Exam
+                                        </h2>
+                                    </div>
+                                </div>
+                            
+                                <!-- Vertical Divider (Only for Desktop) -->
+                                <div class="w-[1px] h-auto bg-black mt-16 hidden md:block"></div>
+                            
+                                <!-- Work Area Section -->
+                                <div class="w-full md:w-[33%] md:px-5 px-3 bg-white shadow-lg rounded-lg border border-gray-200 p-6 md:shadow-none md:border-none">
+                                    <div class="flex flex-col items-center text-center">
+                                        <a href="#" class="py-2 px-6 md:px-8 lg:px-10 bg-[#0045AA] text-white font-semibold rounded-full shadow-md flex justify-center items-center gap-2 mb-4">
+                                            🏥 Work Area
+                                        </a>
+                                        <p class="text-gray-700 text-[15px] leading-tight text-left">
+                                            Diploma in Medical Laboratory Technician (MLT) also referred to as Clinical Laboratory Science professional, Medical Technologist and Medical Laboratory Scientist. The Diploma in Medical lab technician course details can be accessed with a free counseling session. perform complex tests for diagnosis, treatment, and prevention of disease.
+                                        </p>
+                                        <p class="text-gray-700 text-[15px] leading-tight text-left mt-2">
+                                            These professionals are responsible for supporting and assisting doctors/ scientists in their day to day working in a variety of roles. They function as the main support to biomedical scientists in pathology laboratories. It is among the top diplomas in medical laboratory technology colleges.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="hidden md:flex lg:flex flex flex-wrap pt-2 md:pt-5">
                                 <div class="w-full md:w-[33%] md:px-5 px-0 pb-5 md:pb-0">
                                     <div class="flex flex-wrap justify-center md:mb-5 mb-3">
                                         <a href="" class="py-2 md:px-8 lg:px-10 px-8 bg-[#0045AA] text-[#FFF] rounded-full">Duration</a>
@@ -393,7 +544,7 @@
                               </li>
                           </ul>
                     </div>
-                  </section>
+                </section>
             </div>
         </div>
     </section>

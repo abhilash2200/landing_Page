@@ -96,10 +96,15 @@
   @media (max-width: 800px) {
     #testimonial
     .splide__arrows {
-      position: relative;
-      top: 0;
-      left: 0;
+      z-index: 1;
       padding-bottom: 20px;
+      position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100%;
+        transform: translateY(-100%);
+        display: flex;
+        justify-content: space-between;
     }
     
     #testimonial
@@ -116,10 +121,16 @@
   @media (max-width: 400px) {
     #testimonial
     .splide__arrows {
-      position: relative;
-      top: 0;
-      left: 0;
+      z-index: 1;
       padding-bottom: 30px;
+      position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100%;
+        transform: translateY(-100%);
+        display: flex;
+        justify-content: space-between;
+        
     }
     #testimonial
     .splide__pagination {
@@ -176,20 +187,35 @@
   @media (max-width: 800px) {
     #course
     .splide__arrows {
-      position: relative;
-      top: 0;
-      left: 0;
+      z-index: 1;
       padding-bottom: 20px;
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      top: 0%;
+        left: 0;
+        width: 100%;
+        transform: translateY(-100%);
+        display: flex;
+        justify-content: space-between;
     }
   }
 
   @media (max-width: 400px) {
     #course
     .splide__arrows {
-      position: relative;
-      top: 0;
-      left: 0;
+      z-index: 1;
       padding-bottom: 20px;
+      display: flex;
+      align-items: center;
+      position: absolute;
+        top: 0%;
+        left: 0;
+        width: 100%;
+        transform: translateY(-100%);
+        display: flex;
+        justify-content: space-between;
     }
   }
 
@@ -251,5 +277,7 @@
         z-index: 1;
       }
     }
+
+   
 
 
