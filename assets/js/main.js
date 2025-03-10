@@ -23,7 +23,7 @@
   document.addEventListener("DOMContentLoaded", function () {
     new Splide("#testimonial", {
       type   : 'loop',
-      perPage: 3,
+      perPage: 5,
       pagination:true,
       focus  : 'start',
       autoplay: false,
