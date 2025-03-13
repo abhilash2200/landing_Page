@@ -144,6 +144,13 @@
   }
 
 
+  #course
+  .splide__slide {
+    padding: 0 50px;
+    margin: 0 auto;
+  }
+
+
 
   #course
   .splide__arrows {

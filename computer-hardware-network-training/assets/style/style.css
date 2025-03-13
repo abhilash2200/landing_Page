@@ -146,6 +146,14 @@
 
 
   #course
+  .splide__slide {
+    display: flex;
+    width: 100%;
+    padding: 0 50px;
+    margin: 0 auto;
+  }
+  
+  #course
   .splide__arrows {
       position: absolute;
       display: flex;

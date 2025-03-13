@@ -42,7 +42,7 @@
   document.addEventListener("DOMContentLoaded", function () {
     new Splide("#course", {
       type   : 'loop',
-      perPage: 3,
+      perPage: 2,
       gap: "3rem",
       pagination:0,
       perMove: 1,

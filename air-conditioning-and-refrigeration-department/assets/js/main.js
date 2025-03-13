@@ -41,21 +41,25 @@
 
 
   document.addEventListener("DOMContentLoaded", function () {
+    const slider = document.getElementById("course"); 
+    slider.style.width = "100%"; // Width set kar raha hai
+  
     new Splide("#course", {
-      type   : 'loop',
-      perPage: 3,
+      type: "loop",
+      perPage: 2,
       gap: "3rem",
-      pagination:0,
+      pagination: 0,
       perMove: 1,
       breakpoints: {
-        1500 : { perPage: 3 },
-        1300 : { perPage: 3,},
-        1200 : { perPage: 2,},
-        800  :{perPage: 2,},
-        400  :{perPage: 1,}
+        1500: { perPage: 3 },
+        1300: { perPage: 3 },
+        1200: { perPage: 2 },
+        800: { perPage: 2 },
+        400: { perPage: 1 },
       },
     }).mount();
-  })
+  });
+  
 
 
   document.addEventListener("DOMContentLoaded", function () {

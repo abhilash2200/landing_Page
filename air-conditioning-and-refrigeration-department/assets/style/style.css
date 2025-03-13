@@ -91,6 +91,7 @@
     background-color: #FFFFFF;
     color: #FFFFFF;
     transition: background-color 0.3s ease;
+    transition: all 0.1s ease;
   }
 
   @media (max-width: 1440px) {
@@ -157,7 +158,11 @@
   }
 
 
-
+  #course
+  .splide__slide {
+    padding: 0 50px;
+    margin: 0 auto;
+  }
   #course
   .splide__arrows {
       position: absolute;
@@ -265,6 +270,7 @@
       background-color: #0045AA;
       color: #0045AA;
       transition: background-color 0.3s ease;
+      transition: all 0.1s ease;
     }
 
     @media (max-width: 800px) {
